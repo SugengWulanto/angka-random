@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<link rel="stylesheet" href="gameRandom.css">
+  </head>
+  <body>
+    <h1>pilih angka dan coba keberuntunganmu</h1>
+    <h2 id="hasil" style="text-align: center"></h2>
+    <div class="p-kotak">
+      <div class="kotak">
+        <p class="text" id="rndm">NaN</p>
+      </div>
+    </div>
+    <h1 class="pilihan">pilihan kamu</h1>
+    <h3 id="pilihan" style="text-align: center"></h3>
+    <div class="kotak-grid">
+      <div id="kolom-grid" onclick="numb(1)">1</div>
+      <div id="kolom-grid" onclick="numb(2)">2</div>
+      <div id="kolom-grid" onclick="numb(3)">3</div>
+      <div id="kolom-grid" onclick="numb(4)">4</div>
+      <div id="kolom-grid" onclick="numb(5)">5</div>
+      <div id="kolom-grid" onclick="numb(6)">6</div>
+    </div>
+    <script src="gameRandom.js"></script>
+  </body>
+</html>
